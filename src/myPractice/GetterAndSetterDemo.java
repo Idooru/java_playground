@@ -2,7 +2,6 @@ package myPractice;
 
 import myPractice.Models.Man;
 
-
 public class GetterAndSetterDemo {
     public static void main(String[] args) {
         Man man1 = new Man();
