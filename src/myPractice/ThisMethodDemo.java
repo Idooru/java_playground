@@ -1,23 +1,6 @@
 package myPractice;
 
-class Car {
-    String color;
-    int doors;
-
-    Car() {
-        this("red", 4);
-    }
-
-    Car(String color, int doors) {
-        this.color = color;
-        this.doors = doors;
-    }
-
-    @Override
-    public String toString() {
-        return "Car{" + "color='" + color + '\'' + ", doors=" + doors + '}';
-    }
-}
+import myPractice.Models.Car;
 
 public class ThisMethodDemo {
     public static void main(String[] args) {
