@@ -13,5 +13,8 @@ class Static {
 public class StaticBlockDemo {
     public static void main(String[] args) {
         Static.runStatic();
+
+        Static st = new Static();
+        st.runStatic();
     }
 }
