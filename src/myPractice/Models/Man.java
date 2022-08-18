@@ -5,6 +5,7 @@ public class Man {
     private int age;
 
     public Man() {
+        this.name = "무명";
     }
 
     public Man(String name, int age) {

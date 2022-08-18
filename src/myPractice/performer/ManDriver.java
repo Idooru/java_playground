@@ -1,8 +1,8 @@
-package myPractice;
+package myPractice.performer;
 
 import myPractice.Models.Man;
 
-public class GetterAndSetterDemo {
+public class ManDriver {
     public static void main(String[] args) {
         Man man1 = new Man();
         Man man2 = new Man("Idooru", 25);
