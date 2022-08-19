@@ -27,7 +27,7 @@ class MyPet extends Dog {
 public class OverRidingDemo {
     public static void main(String[] args) {
         // 상위 클래스의 객체 참조 변수를 사용하더라도 하위 클레스에서 오버라이딩한 메서드가 호출된다.
-        Dog dog1 = new MyPet("땡");
+        Dog dog1 = new Dog("땡");
         dog1.Feed();
 
         MyPet dog2 = new MyPet("몽");
