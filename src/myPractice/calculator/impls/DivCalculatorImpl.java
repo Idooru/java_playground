@@ -1,7 +1,8 @@
 package myPractice.calculator.impls;
 
-import org.javaground.oop.calculator.Calculator;
-import org.javaground.oop.calculator.interfaces.DivCalculator;
+
+import myPractice.calculator.Calculator;
+import myPractice.calculator.interfaces.DivCalculator;
 
 public class DivCalculatorImpl extends Calculator implements DivCalculator {
 

@@ -1,10 +1,10 @@
 package myPractice.calculator;
 
-import org.javaground.oop.calculator.enums.CalculatorType;
-import org.javaground.oop.calculator.impls.AddCalculatorImpl;
-import org.javaground.oop.calculator.impls.DivCalculatorImpl;
-import org.javaground.oop.calculator.impls.MulCalculatorImpl;
-import org.javaground.oop.calculator.impls.SubCalculatorImpl;
+import myPractice.calculator.enums.CalculatorType;
+import myPractice.calculator.impls.AddCalculatorImpl;
+import myPractice.calculator.impls.DivCalculatorImpl;
+import myPractice.calculator.impls.MulCalculatorImpl;
+import myPractice.calculator.impls.SubCalculatorImpl;
 
 public class CalculatorLibrary {
     private final int left;

@@ -1,6 +1,7 @@
 package myPractice.calculator;
 
-import org.javaground.oop.calculator.enums.CalculatorType;
+
+import myPractice.calculator.enums.CalculatorType;
 
 import java.lang.reflect.Constructor;
 

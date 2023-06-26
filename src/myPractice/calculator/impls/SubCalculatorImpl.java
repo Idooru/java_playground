@@ -1,7 +1,8 @@
 package myPractice.calculator.impls;
 
-import org.javaground.oop.calculator.Calculator;
-import org.javaground.oop.calculator.interfaces.SubCalculator;
+
+import myPractice.calculator.Calculator;
+import myPractice.calculator.interfaces.SubCalculator;
 
 public class SubCalculatorImpl extends Calculator implements SubCalculator {
 
