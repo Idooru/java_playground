@@ -1,5 +1,3 @@
-package egoing.advanced.collectionsframework;
-
 import java.util.ArrayList;
 
 public class ArrayListDemo {
@@ -22,5 +20,6 @@ public class ArrayListDemo {
             String value = al.get(i);
             System.out.println(value);
         }
+
     }
 }
