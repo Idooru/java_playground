@@ -15,16 +15,16 @@ public class OverLoadingDemo {
         return true;
     }
 
-    public static boolean search(String one, String two, int three) {
+    public static int search(String one, String two, int three) {
         System.out.println("Searching Three...");
         System.out.println("find" + three + "!");
-        return true;
+        return 5;
     }
 
     public static void main(String[] args) {
         search("idooru");
         boolean result1 = search("idooru", "java");
-        boolean result2 = search("kimdooru", "java", 236);
+        int result2 = search("kimdooru", "java", 236);
 
         System.out.println("find1 : " + result1);
         System.out.println("find2 : " + result2);

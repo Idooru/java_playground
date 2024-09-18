@@ -16,6 +16,7 @@ class Calculator {
         System.out.println((this.left + this.right) / 2);
     }
 
+    @Override
     public String toString() {
         return super.toString() + " left: " + this.left + ", right: " + this.right;
     }
