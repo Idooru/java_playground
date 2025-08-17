@@ -2,16 +2,15 @@ package myPractice.calculator.impls;
 
 
 import myPractice.calculator.Calculator;
-import myPractice.calculator.interfaces.SubCalculator;
 
-public class SubCalculatorImpl extends Calculator implements SubCalculator {
+public class SubCalculatorImpl extends Calculator {
 
     public SubCalculatorImpl(int left, int right) {
-        super(left, right, SubCalculatorImpl.class.getSimpleName());
+        super(left, right, SubCalculatorImpl.class.getSimpleName(), "-");
     }
 
     @Override
-    public void subFunction() {
+    protected void calculate() {
         result = left - right;
     }
 }

@@ -2,16 +2,16 @@ package myPractice.calculator.impls;
 
 
 import myPractice.calculator.Calculator;
-import myPractice.calculator.interfaces.MulCalculator;
 
-public class MulCalculatorImpl extends Calculator implements MulCalculator {
+public class MulCalculatorImpl extends Calculator {
 
     public MulCalculatorImpl(int left, int right) {
-        super(left, right, MulCalculatorImpl.class.getSimpleName());
+        super(left, right, MulCalculatorImpl.class.getSimpleName(), "*");
     }
 
+
     @Override
-    public void mulFunction() {
+    protected void calculate() {
         result = left * right;
     }
 }
